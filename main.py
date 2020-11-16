@@ -28,8 +28,8 @@ def get_random_string(length):
         exit(-1)
 
     letters = string.ascii_letters # You can use ascii_lowercase for generate lowercase characters only, ascii_uppercase for generate uppercase characters only and ascii_letters for both
-    array_passwrod = ''.join(random.choice(letters) for i in range(length))
-    print("[SUCCESS] Your password has been generated: ", array_passwrod)
+    array_password = ''.join(random.choice(letters) for i in range(length))
+    print("[SUCCESS] Your password has been generated: ", array_password)
 
 # Main Function
 def start():
